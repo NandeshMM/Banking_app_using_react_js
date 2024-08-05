@@ -4,11 +4,13 @@ import "./globals.css";
 import { Variable } from "lucide-react";
 
 //Demo Change
+//Demo Change
+//Demo Change
 const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
 const ibmPlexSerif = IBM_Plex_Serif({
-  subset: ['latin'],
+  subsets: ['latin'],
   weight: ['400','700'],
-  Variable: '--font-ibm-plex-serif'
+  variable: '--font-ibm-plex-serif'
 })
 export const metadata: Metadata = {
   title: "Sannidhi",
